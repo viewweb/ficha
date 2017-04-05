@@ -1,3 +1,28 @@
 page-login {
+    .fundo-escuro {
+        text-align: center;
 
+        .logo-login {
+            width: 100%;
+            padding-top: 5%;    
+
+            img {
+                width: 50%;
+            }
+        }
+       .avatar {
+            padding-top: 7%;
+       }
+    }
+    .form-box {
+        margin: 5% auto 15px auto;
+    }
+    .buttons {
+        width: 80%;
+        margin: 20px auto 0 auto;
+    } 
+    a { 
+    text-decoration: none;
+    color: #333;
+    }
 }

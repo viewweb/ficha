@@ -15,3 +15,62 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+$red: #A1252A;
+$lightRed: #BE423D;
+$yellow: #FADE2F;
+$light: #EEEFEF;
+
+$bg: radial-gradient($lightRed 10%, $red 90%);
+
+.fundo-escuro {
+    position: relative;
+    background: $bg;
+    width: 100%;
+    min-height: 100%;
+}
+.botao-amarelo {
+    background: $yellow;
+    border: 1px solid $yellow;
+    width: 100%;
+    color: #333333;
+    box-shadow: none;
+    text-transform: normal;
+    margin: 0;
+}
+.botao-fb {
+    background: #30519E;
+    color: white;
+    width: 100%;
+    box-shadow: none;
+    margin: 20px 0;
+}
+.form-box {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    background: #fff;
+
+    form {
+        .falso-input {
+            background: $light;
+            width: 100%;
+            height: 40px;
+            margin-bottom: 20px;
+
+            input[type=text], input[type=email], input[type=password] {
+                border: 0;
+                outline: none;
+                background: transparent;
+                width: 85%;
+                height: 40px;
+                padding: 0 10px;
+                float: right;
+            }
+            img {
+                width: 15%;
+                height: 40px;
+                float: left;
+            }
+        }
+    }
+}
